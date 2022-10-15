@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import * as S from '../Styles/Styles'
-import J from '../Img/J.png'
+import Logo from '../Img/Logo.png'
 import Menu from '../Img/MenuH.png'
 
 export default function Header({rota,rota2,rota3}){
@@ -14,7 +14,7 @@ export default function Header({rota,rota2,rota3}){
     return(
         <S.ContainerHeader>
             <figure>
-                <S.Logo src={J} alt='Logo' />
+                <S.Logo src={Logo} alt='Logo' />
             </figure>
             <S.Menu src={Menu} onClick={Toggle} />
             
