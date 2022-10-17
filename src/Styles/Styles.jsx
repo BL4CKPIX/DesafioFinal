@@ -106,7 +106,7 @@ export const Logo = styled.img`
 
 export const H2 = styled.h2`
     color: #72ff00;
-    animation: typing 4s 1s normal steps(48) both, blink 500ms  infinite alternate ;
+    animation: typing 3s 1s normal steps(48) both, blink 500ms  infinite alternate ;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -150,7 +150,6 @@ export const ContainerHome = styled.div`
         background-repeat: no-repeat;
         background-size: 100%;
         background-attachment: fixed;
-        border:solid red;
         height: 80vh;
         @media (max-width: 768px){
             background-image: url(${FundoM});
@@ -208,6 +207,7 @@ export const ContainerAbout = styled.div`
 export const MyPhoto2 = styled.img`
     width: 20vw;
     height: 65vh;
+    object-fit: cover;
     @media (max-width: 768px){
         width: 70vw;
     }
