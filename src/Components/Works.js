@@ -4,6 +4,7 @@ import Recipes from '../Img/Recipes.jpg'
 import FilmesFlix from '../Img/FilmesFlix.jpg'
 import Lol from '../Img/LOL.jpg'
 import StarWars from '../Img/StarWars.jpg'
+import Ods from '../Img/Ods.jpg'
 export default function Works(){
 
 
@@ -59,6 +60,10 @@ export default function Works(){
                 <div>
                     <a href="https://bl4ckpix.github.io/Star-Wars/" target={"_blank"} rel="noopener noreferrer" ><S.ImgWorks src={StarWars} alt='StarWars' /></a>
                     <h2>StarWars</h2>
+                </div>
+                <div>
+                    <a href="https://odsfortaleza.netlify.app/" target={"_blank"} rel="noopener noreferrer" ><S.ImgWorks src={Ods} alt='Ods' /></a>
+                    <h2>ODS</h2>
                 </div>
             </S.DivWorks>
         </S.ContainerWorks>
