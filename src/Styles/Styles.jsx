@@ -290,6 +290,10 @@ export const DivWorks = styled(Carousel)`
     p{
         text-align: center;
     }
+
+    @media (max-width: 768px){
+        font-size: 0.9rem;
+    }
 `
 
 export const ImgWorks = styled.img`
