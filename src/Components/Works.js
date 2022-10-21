@@ -46,24 +46,29 @@ export default function Works(){
         <S.ContainerWorks >
             <S.DivWorks {... settings}>
                 <div>
-                    <a href="https://magenta-moxie-78c1fd.netlify.app" target={"_blank"} rel="noopener noreferrer" ><S.ImgWorks src={Recipes} alt='Receitas' /></a>
+                    <a href="https://recipesjordan.netlify.app" target={"_blank"} rel="noopener noreferrer" ><S.ImgWorks src={Recipes} alt='Receitas' /></a>
                     <h2>Recipes</h2>
+                    <p>Vemos um site de receitas</p>
                 </div>
                 <div>
-                    <a href="https://coruscating-cactus-e20f49.netlify.app" target={"_blank"} rel="noopener noreferrer" ><S.ImgWorks src={FilmesFlix} alt='Filmes e Series' /></a>
+                    <a href="https://filmes-series.netlify.app" target={"_blank"} rel="noopener noreferrer" ><S.ImgWorks src={FilmesFlix} alt='Filmes e Series' /></a>
                     <h2>Filmes</h2>
+                    <p>Site de filmes e series para curti com a familia</p>
                 </div>
                 <div>
                     <a href="https://bl4ckpix.github.io/Login_League_Of_Legends/" target={"_blank"} rel="noopener noreferrer" ><S.ImgWorks src={Lol} alt='Login League of legends' /></a>
                     <h2>League Of Legends</h2>
+                    <p>Venha jogar conosco</p>
                 </div>
                 <div>
                     <a href="https://bl4ckpix.github.io/Star-Wars/" target={"_blank"} rel="noopener noreferrer" ><S.ImgWorks src={StarWars} alt='StarWars' /></a>
                     <h2>StarWars</h2>
+                    <p>Desvende os misterios de StarWars</p>
                 </div>
                 <div>
                     <a href="https://odsfortaleza.netlify.app/" target={"_blank"} rel="noopener noreferrer" ><S.ImgWorks src={Ods} alt='Ods' /></a>
                     <h2>ODS</h2>
+                    <p>Objetivos Sustentaveis de Fortaleza, Veja suas diversas mudanças até 2040</p>
                 </div>
             </S.DivWorks>
         </S.ContainerWorks>
