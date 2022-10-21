@@ -1,6 +1,5 @@
 import styled,{createGlobalStyle} from "styled-components";
 import { Link } from "react-router-dom";
-import FundoH from '../Img/Fundo3.png'
 import Fundo from '../Img/Fundo2.png'
 import FundoM from '../Img/FundoM.png'
 import Carousel from "nuka-carousel/lib/carousel";
@@ -24,12 +23,6 @@ export const ContainerHeader = styled.div`
     justify-content: space-around;
     height: 20vh;
     width: 100%;
-    flex-wrap: wrap;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-image: url(${FundoH});
     @media (max-width: 768px){
         height: 15vh;
     }
@@ -129,7 +122,7 @@ export const H2 = styled.h2`
         }   
     }
     @media (max-width: 768px){
-        font-size: 1.6em;
+        font-size: 1.5em;
         @keyframes typing {
             to{
                 
@@ -155,7 +148,6 @@ export const ContainerHome = styled.div`
         height: 80vh;
         @media (max-width: 768px){
             background-image: url(${FundoM});
-            height: 100vh;
         }
         display: flex;
         flex-direction: column;
@@ -224,12 +216,15 @@ export const Div = styled.div`
     h2{
         color: #72ff00;
         width: 40vw;
+        
     }
     
     @media (max-width: 768px){
         flex-direction: column-reverse;
         h2{
-            width: 90vw;
+            width: 100%;
+            border:solid;
+            font-size: 1.5rem;
         }
     }
 `
@@ -259,9 +254,10 @@ export const H3 = styled.h3`
         }   
     }
     @media (max-width: 768px){
+
         @keyframes typing {
             to{
-                width: 12em;
+                width: 9em;
             }
         }
     }
@@ -278,7 +274,6 @@ export const ContainerWorks = styled.div`
         height: 80vh;
         @media (max-width: 768px){
             background-image: url(${FundoM});
-            height: 100vh;
         }
         color:white;
         display: flex;
