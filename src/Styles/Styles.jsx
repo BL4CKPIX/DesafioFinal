@@ -129,7 +129,7 @@ export const H2 = styled.h2`
         }   
     }
     @media (max-width: 768px){
-        font-size: 1.3rem;
+        font-size: 1.6em;
         @keyframes typing {
             to{
                 
@@ -289,6 +289,12 @@ export const ContainerWorks = styled.div`
 `
 
 export const DivWorks = styled(Carousel)`
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
 `
 
 export const ImgWorks = styled.img`
