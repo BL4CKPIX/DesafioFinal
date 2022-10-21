@@ -129,9 +129,11 @@ export const H2 = styled.h2`
         }   
     }
     @media (max-width: 768px){
+        font-size: 1.3rem;
         @keyframes typing {
             to{
-                width: 12em;
+                
+                width: 17.5em;
             }
         }
     }
